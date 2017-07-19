@@ -1,0 +1,258 @@
+
+
+
+body{
+  
+	  background: linear-gradient(black, #000099, #66c2ff, #ffcccc, #ffeee6) !important;
+  }
+
+.thick-green{
+
+	border-width:10px;
+	border-radius: 50%;
+	border-style:solid;
+	border-color: transparent;
+}
+
+.smaller-image{
+	width:250px;
+	position: relative;
+	top:40px;
+	left: 20px;
+
+
+}
+
+
+
+p{
+	text-align:justify;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	background-color: rgba(45, 45, 45, 0.1)
+	font-size:20px;
+	line-height: 25px;
+	width:75vmin;
+	 /*transform:scale(1.5);*/
+}
+
+
+ #thumbnail{
+  
+ 	 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ 	 background:linear-gradient(90deg,rgb(204, 204, 255),#FFCCCC);
+ 	 height: 50%;
+  }
+
+  .intro{
+  	 max-width:670px;
+    text-align:center;
+   	position: relative;
+   	top:50px;
+
+
+  }
+
+ .skills {
+      font-size: 1.15em;
+      position: relative;
+      top: 100px;
+    }
+  #banner a:hover {
+  	animation-name: background-color;
+  	animation-duration: 500ms;
+  	animation-fill-mode: forwards;
+  }
+
+  @keyframes background-color{
+  	100% {
+      background-color: #4791d0;
+    }
+  }
+
+    #navbar {
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background:#000000;
+  }
+
+  .home{
+  	position:relative ;
+  	top: 100px ;
+  	
+  }	
+
+  
+hr{
+	padding top: 100px !important;
+	position: relative !important;
+	top:100px !important;
+}
+hr.star-light {
+    border-color: #fff;
+    margin: 25px auto 30px;
+    padding: 0px;
+    max-width: 80%;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+   
+      	
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+
+
+#title:after {
+    content: '_';
+    animation: animateDash 0.8s linear 0s infinite;
+}
+
+
+
+#title:before {
+    content: "Front-End Developer";
+    animation: animateTitle 10s linear 0s infinite;
+}
+
+
+@keyframes animateDash {
+  50% {
+    content: ''; }
+  100% {
+    content: '_'; } }
+
+
+
+    @keyframes animateTitle {
+  1% {
+    content: 'Front-End Developer'; }
+  5% {
+    content: 'Front-End Develope'; }
+  10% {
+    content: 'Front-End Develop'; }
+  15% {
+    content: 'Front-End Develo'; }
+  20% {
+    content: 'Front-End Devel'; }
+  25% {
+    content: 'Front-End De'; }
+  30% {
+    content: 'Front-End'; }
+  35% {
+    content: 'Front-'; }
+  40% {
+    content: 'B'; }
+  45% {
+    content: 'Back-'; }
+  50% {
+    content: 'Back-End'; }
+  55% {
+    content: 'Back-End Deve'; }
+  60% {
+    content: 'Back-End Developer'; }
+  65% {
+    content: 'Back-End Develo'; }
+  70% {
+    content: 'Back-End De'; }
+  75% {
+    content: 'Back-'; }
+  80% {
+    content: ''; }
+  85% {
+    content: 'Java'; }
+  90% {
+    content: 'Javascript'; }
+  95% {
+    content: 'Javascript Dev'; }
+  100% {
+    content: 'Javascript Developer'; } }
+
+  /* footer{
+   	background-color: #000000;
+   	position: relative;
+   	top: 200px;
+   	height: 100px;
+   } */
+
+/* keep it for home page*/
+   .page-footer {
+  padding-top: 0 !important;
+  background-color: black !important;
+  position: relative;
+  top: 250px;
+  height: 100px;
+  }
+
+  .page-footer .footer-copyright {
+  	 color:rgb(255,255,255) !important;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+#about {
+  background: #FFEB3B;
+  padding: 30px;
+  min-height: 85vh; 
+  margin:-15px; 
+	}
+
+  #about .leadText {
+    font-size: 20px; }
+
+  #about .stack {
+    padding-top: 20px; 
+    width: auto;
+	}
+
+  #about p {
+    overflow-wrap: break-word; }
+
+    #about p i {
+      font-size: 40px;
+      letter-spacing: 5px;
+      }
+
+  #about .devicon-javascript-plain.colored {
+    color: black; }
+
+
+
+
+ #content{
+ 	font-size: 20px;
+ }     
+
+ .page-footer1 {
+  padding-top: 0 !important;
+  background-color: black !important;
+  position: relative;
+ 
+  height: 100px;
+  }
+
+  .page-footer1 .footer-copyright1 {
+  	 color:rgb(255,255,255) !important;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+    
+}
+
